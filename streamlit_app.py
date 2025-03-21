@@ -3,7 +3,7 @@ import streamlit as st
  # Write directly to the app
 st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write("Choose the fruits you want in your custom Smoothie!")
- name_on_order = st.text_input("Name on smoothie: ")
+name_on_order = st.text_input("Name on smoothie: ")
 st.write("The name on your smoothie will be", name_on_order)
  from snowflake.snowpark.functions import col
 #my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
